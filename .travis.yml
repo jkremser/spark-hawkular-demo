@@ -3,4 +3,5 @@ scala:
    - 2.10.6
 
 script: 
-- ./sbt.sh run
+- ./sbt.sh compile
+#- ./sbt.sh run # this requires running cassandra with some metric data collected by hawkular agent
